@@ -1,0 +1,105 @@
+/*
+====================================
+
+====================================
+*/
+.back {
+    height: 1000px;
+    background: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.8;
+}
+.header {
+    width: 100%;
+    color: gold;
+    background-color: #524B58;
+    text-align: center;
+    height: 150px;
+    padding-top: 40px;
+}
+.btn {
+    border-radius: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.btn-alt {
+    border: 1px solid darkgoldenrods;
+    padding: 10px 30px;
+    background-color: #000000;
+    color: darkgoldenrod;
+    
+}
+.footer {
+    background-color: #565A69;
+}
+.h1 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 50px;
+}
+.h3 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+}
+.spanner {
+    color: whitesmoke;
+}
+.tel {
+    padding-top: 150px;
+}
+.follow {
+    text-align: center;
+    padding-top: 200px;
+}
+.body {
+    background-color: #524B58;
+}
+/*  SECTIONS  ============================================================================= */
+
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  GROUPING  ============================================================================= */
+
+
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/*  GRID COLUMN SETUP   ==================================================================== */
+
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+.col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+
+/*  GRID OF THREE   ============================================================================= */
+
+	
+.span_3_of_3 {
+	width: 100%; 
+}
+
+.span_2_of_3 {
+	width: 66.13%; 
+}
+
+.span_1_of_3 {
+	width: 32.26%; 
+}
